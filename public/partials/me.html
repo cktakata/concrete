@@ -1,0 +1,15 @@
+<div class="row" data-ng-controller="MeCtrl">
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <strong>Usuário atual</strong>
+            </div>
+            <div class="panel-body">
+				<p>Nome: {{myDetails.data.nome}}</p>
+                <p>Email: {{myDetails.data.email}}</p>
+                <p>Password Hash: {{myDetails.data.password}}</p>
+				<p>Telefone: ({{myDetails.data.telefone[0].ddd}})-{{myDetails.data.telefone[0].numero}}</p>
+            </div>
+        </div>
+    </div>
+</div>

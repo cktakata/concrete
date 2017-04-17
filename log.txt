@@ -1,0 +1,1374 @@
+Retrieving logs for app [36;1mcktakata-concrete[0m in org [36;1mcarlos.takata[0m / space [36;1mdev[0m as [36;1mcarlos.takata@gmail.com[0m...
+
+2017-04-16T20:52:12.53-0300 [CELL/0] OUT Container became unhealthy
+2017-04-16T20:52:24.17-0300 [CELL/0] OUT Creating container
+2017-04-16T20:52:45.24-0300 [CELL/0] OUT Successfully created container
+2017-04-16T20:52:48.01-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T20:52:49.28-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T20:52:49.28-0300 [APP/0] OUT > node app.js
+2017-04-16T20:52:50.19-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T20:52:50.19-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T20:52:50.25-0300 [CELL/0] OUT Container became healthy
+2017-04-16T21:09:13.73-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:13.691 +0000] "GET / HTTP/1.1" 200 0 2886 "-" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.151:59736 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:86d3daf2-32cc-42ba-6716-9e764668d984 response_time:0.047348251 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2850694977"
+2017-04-16T21:09:13.73-0300 [RTR/2] OUT 
+2017-04-16T21:09:14.09-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.077 +0000] "GET /lib/loading-bar.css HTTP/1.1" 200 0 2770 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.152:19839 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:10dcde6e-6803-4125-4e52-527c217f2a64 response_time:0.012697756 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1142411007"
+2017-04-16T21:09:14.09-0300 [RTR/1] OUT 
+2017-04-16T21:09:14.09-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.084 +0000] "GET /lib/ngStorage.js HTTP/1.1" 200 0 1179 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.154:36994 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:8f673003-7ed3-43b3-6a84-d719128b8852 response_time:0.010554221 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3929841031"
+2017-04-16T21:09:14.09-0300 [RTR/1] OUT 
+2017-04-16T21:09:14.27-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.253 +0000] "GET /lib/loading-bar.js HTTP/1.1" 200 0 9291 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.152:18071 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:77ca659b-92e1-4a96-661e-b9d9512ad774 response_time:0.017325359 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3281752851"
+2017-04-16T21:09:14.27-0300 [RTR/1] OUT 
+2017-04-16T21:09:14.31-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.304 +0000] "GET /scripts/app.js HTTP/1.1" 200 0 1516 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.153:46876 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:c92d13a2-c94c-40bb-4f8f-dbd08fa65a6a response_time:0.006049542 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2211729449"
+2017-04-16T21:09:14.31-0300 [RTR/2] OUT 
+2017-04-16T21:09:14.52-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.518 +0000] "GET /scripts/controllers.js HTTP/1.1" 200 0 2180 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.153:46635 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:197cde1e-ca67-4f3c-6902-7fcd6cf6db5e response_time:0.00912413 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2609832099"
+2017-04-16T21:09:14.52-0300 [RTR/2] OUT 
+2017-04-16T21:09:14.54-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:14.541 +0000] "GET /scripts/services.js HTTP/1.1" 200 0 1848 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.156:35100 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:c32d2a4b-172d-4b7c-4e7a-58ff376ffe67 response_time:0.007667882 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1110490335"
+2017-04-16T21:09:14.54-0300 [RTR/3] OUT 
+2017-04-16T21:09:15.25-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:15.249 +0000] "GET /partials/home.html HTTP/1.1" 200 0 609 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.156:37510 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:58c8f928-86a6-4205-5d4d-9948b09ffe70 response_time:0.009423781 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1792336353"
+2017-04-16T21:09:15.25-0300 [RTR/3] OUT 
+2017-04-16T21:09:15.33-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:09:15.321 +0000] "GET /favicon.ico HTTP/1.1" 404 0 24 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Linux; Android 6.0.1; SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36" 108.168.250.153:45842 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:35288e27-6734-44e3-7afa-4581de4ea186 response_time:0.010722949 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3929843079"
+2017-04-16T21:09:15.33-0300 [RTR/2] OUT 
+2017-04-16T21:26:15.75-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T21:26:28.62-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T21:26:28.64-0300 [CELL/0] OUT Exit status 0
+2017-04-16T21:26:32.29-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T21:26:32.29-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T21:26:32.29-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T21:26:32.29-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T21:26:32.31-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T21:26:32.32-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T21:26:32.34-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:26:32.34-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T21:26:32.34-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T21:26:32.34-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:26:32.35-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T21:26:32.35-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T21:26:32.35-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T21:26:32.35-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T21:26:32.36-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:26:32.36-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T21:26:32.36-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T21:26:32.37-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:26:32.38-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T21:26:32.38-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T21:26:32.39-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:26:32.39-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T21:26:32.39-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T21:26:32.39-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T21:26:32.40-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T21:26:32.41-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T21:26:32.41-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T21:26:32.42-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T21:26:32.42-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T21:26:32.42-0300 [STG/0] OUT Creating container
+2017-04-16T21:26:39.67-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:26:44.08-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:26:44.08-0300 [STG/0] OUT Downloading app package...
+2017-04-16T21:26:44.21-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T21:26:45.60-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T21:26:45.60-0300 [STG/0] OUT Staging...
+2017-04-16T21:26:47.16-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T21:26:47.18-0300 [STG/0] OUT        
+2017-04-16T21:26:47.18-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T21:26:47.18-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T21:26:47.18-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:26:47.18-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T21:26:47.18-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:26:47.21-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:26:47.21-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:26:47.21-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T21:26:47.42-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T21:26:49.66-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:26:49.68-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T21:26:49.68-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:26:52.74-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:26:58.02-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T21:26:58.02-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:26:58.02-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:27:00.00-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:27:01.23-0300 [STG/0] OUT        
+2017-04-16T21:27:11.88-0300 [STG/0] OUT Exit status 0
+2017-04-16T21:27:11.88-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T21:27:11.88-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T21:27:11.88-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T21:27:12.40-0300 [STG/0] OUT Uploaded build artifacts cache (4M)
+2017-04-16T21:27:15.77-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T21:27:15.78-0300 [STG/0] OUT Uploading complete
+2017-04-16T21:27:15.91-0300 [STG/0] OUT Destroying container
+2017-04-16T21:27:16.43-0300 [CELL/0] OUT Creating container
+2017-04-16T21:27:24.39-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T21:28:02.76-0300 [CELL/0] OUT Successfully created container
+2017-04-16T21:28:05.97-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T21:28:07.24-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T21:28:07.24-0300 [APP/0] OUT > node app.js
+2017-04-16T21:28:08.14-0300 [APP/0] OUT [app] init database
+2017-04-16T21:28:08.14-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T21:28:08.23-0300 [CELL/0] OUT Container became healthy
+2017-04-16T21:34:44.45-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T21:34:56.92-0300 [API/10] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T21:34:56.98-0300 [CELL/0] OUT Exit status 0
+2017-04-16T21:35:00.00-0300 [API/10] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T21:35:00.81-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T21:35:00.81-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T21:35:00.81-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T21:35:00.81-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T21:35:00.83-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T21:35:00.83-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T21:35:00.83-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:35:00.83-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T21:35:00.85-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:35:00.86-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T21:35:00.87-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:35:00.87-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:35:00.88-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T21:35:00.88-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T21:35:00.88-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T21:35:00.90-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T21:35:00.90-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T21:35:00.91-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T21:35:00.91-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T21:35:00.92-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:35:00.92-0300 [STG/0] OUT Creating container
+2017-04-16T21:35:07.96-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:35:22.67-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:35:24.47-0300 [STG/0] OUT Downloaded build artifacts cache (4M)
+2017-04-16T21:35:24.47-0300 [STG/0] OUT Staging...
+2017-04-16T21:35:25.90-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T21:35:25.90-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T21:35:25.91-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T21:35:25.91-0300 [STG/0] OUT        
+2017-04-16T21:35:25.92-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:35:25.96-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:35:25.96-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:35:25.96-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:35:25.96-0300 [STG/0] OUT        
+2017-04-16T21:35:25.96-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T21:35:26.16-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T21:35:28.18-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T21:35:28.48-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T21:35:28.48-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:35:28.48-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:35:34.42-0300 [STG/0] OUT -----> Caching build
+2017-04-16T21:35:34.48-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T21:35:34.48-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:35:35.62-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T21:35:35.93-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:35:36.78-0300 [STG/0] OUT        
+2017-04-16T21:35:47.76-0300 [STG/0] OUT Exit status 0
+2017-04-16T21:35:51.55-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T21:35:51.56-0300 [STG/0] OUT Uploading complete
+2017-04-16T21:35:51.72-0300 [STG/0] OUT Destroying container
+2017-04-16T21:35:52.89-0300 [CELL/0] OUT Creating container
+2017-04-16T21:35:55.22-0300 [CELL/0] OUT Successfully created container
+2017-04-16T21:35:58.27-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T21:35:59.44-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T21:36:00.11-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T21:36:00.11-0300 [APP/0] OUT [app] init database
+2017-04-16T21:36:00.11-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T21:36:02.73-0300 [CELL/0] OUT Container became healthy
+2017-04-16T21:36:07.42-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T21:36:33.95-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:33.923 +0000] "GET / HTTP/1.1" 200 0 2886 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:56259 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:971bcfa6-65b8-423e-41af-13e2060c4096 response_time:0.032013093 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3266002719"
+2017-04-16T21:36:33.95-0300 [RTR/2] OUT 
+2017-04-16T21:36:34.30-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:34.155 +0000] "GET /scripts/app.js HTTP/1.1" 200 0 1516 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:43522 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:589f7044-0b70-41a2-657f-ce6501b8a9d2 response_time:0.149706845 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3266002735"
+2017-04-16T21:36:34.30-0300 [RTR/1] OUT 
+2017-04-16T21:36:34.30-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:34.159 +0000] "GET /lib/ngStorage.js HTTP/1.1" 200 0 1179 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:21269 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:d5de7153-ab44-4580-6742-eff568337ff2 response_time:0.148991777 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1172135887"
+2017-04-16T21:36:34.30-0300 [RTR/2] OUT 
+2017-04-16T21:36:34.91-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:34.896 +0000] "GET /partials/home.html HTTP/1.1" 200 0 609 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:46021 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:34857f5a-4cb1-42fc-5c2b-5eb627b4cb96 response_time:0.018837623 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2613063651"
+2017-04-16T21:36:34.91-0300 [RTR/1] OUT 
+2017-04-16T21:36:36.46-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:36.456 +0000] "GET /partials/signup.html HTTP/1.1" 200 0 2398 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:14360 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:fcc13a6e-f519-4ced-713c-ac9918f4ab71 response_time:0.008204429 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1734967501"
+2017-04-16T21:36:36.46-0300 [RTR/1] OUT 
+2017-04-16T21:38:56.34-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:36:56.306 +0000] "POST /signin HTTP/1.1" 502 80 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:45306 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:2889c773-fd52-4bcf-76b4-41d39913b0e5 response_time:120.035008198 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3943306775"
+2017-04-16T21:38:56.34-0300 [RTR/1] OUT 
+2017-04-16T21:40:23.48-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:38:23.464 +0000] "POST /authenticate HTTP/1.1" 502 43 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:56933 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:859a583a-2422-4fee-4f71-0c21a02d5e7f response_time:120.019315463 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"229604839"
+2017-04-16T21:40:23.48-0300 [RTR/3] OUT 
+2017-04-16T21:43:28.94-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T21:43:32.78-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T21:43:32.80-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:43:32.80-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:43:32.80-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:43:32.81-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T21:43:32.81-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:43:32.81-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T21:43:32.82-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T21:43:32.82-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T21:43:32.83-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T21:43:32.84-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:43:32.85-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T21:43:32.85-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T21:43:32.86-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T21:43:32.86-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T21:43:32.86-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T21:43:32.86-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T21:43:32.87-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T21:43:32.87-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T21:43:32.88-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T21:43:32.88-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T21:43:32.88-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T21:43:32.89-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T21:43:32.91-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:43:32.92-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T21:43:38.93-0300 [CELL/0] OUT Exit status 137
+2017-04-16T21:43:39.94-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:43:46.24-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:43:46.24-0300 [STG/0] OUT Downloading app package...
+2017-04-16T21:43:46.57-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:43:46.87-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T21:43:46.87-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T21:43:50.99-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T21:43:50.99-0300 [STG/0] OUT Staging...
+2017-04-16T21:43:53.85-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T21:43:53.85-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T21:43:53.86-0300 [STG/0] OUT        
+2017-04-16T21:43:53.93-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T21:43:53.93-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T21:43:53.93-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:43:53.93-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T21:43:53.93-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:43:54.07-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:43:54.07-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:43:54.07-0300 [STG/0] OUT        
+2017-04-16T21:44:00.55-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T21:44:00.57-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T21:44:02.23-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T21:44:02.23-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:44:02.23-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T21:44:02.23-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:44:02.24-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T21:44:06.59-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T21:44:15.63-0300 [STG/0] OUT -----> Caching build
+2017-04-16T21:44:15.66-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T21:44:15.69-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:44:19.00-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T21:44:19.94-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T21:44:21.99-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:44:21.99-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:44:21.99-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:44:21.99-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:44:22.00-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T21:44:22.00-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:44:22.00-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T21:44:22.00-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:44:40.91-0300 [STG/0] OUT Exit status 0
+2017-04-16T21:44:40.91-0300 [STG/0] OUT Staging complete
+2017-04-16T21:44:40.91-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T21:44:40.91-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T21:44:40.91-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T21:44:45.43-0300 [STG/0] OUT Uploaded droplet (20.9M)
+2017-04-16T21:44:45.46-0300 [STG/0] OUT Uploading complete
+2017-04-16T21:44:45.78-0300 [STG/0] OUT Destroying container
+2017-04-16T21:44:46.47-0300 [CELL/0] OUT Creating container
+2017-04-16T21:45:00.07-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T21:45:01.92-0300 [CELL/0] OUT Successfully created container
+2017-04-16T21:45:13.31-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T21:45:13.31-0300 [APP/0] OUT > node app.js
+2017-04-16T21:45:16.58-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T21:45:16.58-0300 [APP/0] OUT [app] init database
+2017-04-16T21:45:16.63-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T21:45:18.26-0300 [CELL/0] OUT Container became healthy
+2017-04-16T21:45:57.96-0300 [APP/0] OUT { nome: 'test',
+2017-04-16T21:45:57.96-0300 [APP/0] OUT   data_atualizacao: Mon Apr 17 2017 00:45:57 GMT+0000 (UTC),
+2017-04-16T21:45:57.96-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T21:47:57.36-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:45:56.910 +0000] "POST /signin HTTP/1.1" 502 80 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:37088 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:948e8a7a-ab2b-4c08-5ac0-dab41ffeb7c0 response_time:120.454202911 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3063720029"
+2017-04-16T21:47:57.36-0300 [RTR/1] OUT 
+2017-04-16T21:48:26.39-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T21:48:26.39-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T21:48:26.39-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T21:48:26.41-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T21:48:26.42-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T21:48:26.42-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T21:48:26.43-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T21:48:26.43-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T21:48:26.44-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T21:48:26.44-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:48:26.44-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:48:26.44-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T21:48:26.44-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T21:48:26.45-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T21:48:26.45-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T21:48:26.46-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:48:26.46-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T21:48:26.46-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T21:48:26.46-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T21:48:26.46-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T21:48:26.48-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T21:48:26.48-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T21:48:26.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T21:48:26.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T21:48:26.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T21:48:26.49-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T21:48:26.50-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:48:26.50-0300 [STG/0] OUT Creating container
+2017-04-16T21:48:33.87-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:48:40.98-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:48:40.98-0300 [STG/0] OUT Downloading app package...
+2017-04-16T21:48:41.17-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T21:48:41.86-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:48:42.48-0300 [STG/0] OUT Downloaded build artifacts cache (4M)
+2017-04-16T21:48:44.02-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T21:48:44.02-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T21:48:44.02-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T21:48:44.02-0300 [STG/0] OUT        
+2017-04-16T21:48:44.04-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T21:48:44.04-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:48:44.04-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T21:48:44.04-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:48:44.05-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:48:44.05-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:48:44.05-0300 [STG/0] OUT        
+2017-04-16T21:48:44.05-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T21:48:46.23-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T21:48:46.24-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T21:48:46.54-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T21:48:46.54-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:48:46.55-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T21:48:46.55-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:48:46.55-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T21:48:54.43-0300 [STG/0] OUT -----> Caching build
+2017-04-16T21:48:54.46-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:48:54.46-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:48:55.90-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:48:56.73-0300 [STG/0] OUT        
+2017-04-16T21:49:05.25-0300 [STG/0] OUT Exit status 0
+2017-04-16T21:49:05.25-0300 [STG/0] OUT Staging complete
+2017-04-16T21:49:05.25-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T21:49:05.25-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T21:49:05.57-0300 [STG/0] OUT Uploaded build artifacts cache (4.1M)
+2017-04-16T21:49:07.96-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T21:49:11.67-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T21:50:23.49-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T21:50:23.51-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:50:23.53-0300 [API/9] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>1, "crash_timestamp"=>1492390223500203683, "version"=>"eadfa0f5-4482-401a-b93b-4bdb4f4e33b7"}
+2017-04-16T21:50:24.13-0300 [CELL/0] OUT Creating container
+2017-04-16T21:51:04.97-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:51:04.97-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:51:05.59-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T21:51:26.21-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T21:51:26.22-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:51:26.24-0300 [API/1] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>3, "crash_timestamp"=>1492390286221830119, "version"=>"eadfa0f5-4482-401a-b93b-4bdb4f4e33b7"}
+2017-04-16T21:51:52.00-0300 [API/1] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T21:52:12.46-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T21:52:15.92-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T21:52:16.39-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:52:16.39-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:52:16.39-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T21:52:16.40-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T21:52:16.41-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T21:52:16.43-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T21:52:16.43-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T21:52:16.44-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:52:16.44-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T21:52:16.44-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T21:52:16.45-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T21:52:16.45-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T21:52:16.45-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T21:52:16.45-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T21:52:16.45-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T21:52:16.46-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T21:52:16.46-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T21:52:16.46-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:52:16.46-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T21:52:16.47-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T21:52:16.47-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T21:52:16.47-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T21:52:16.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T21:52:16.48-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T21:52:16.48-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T21:52:16.49-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:52:20.07-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:52:20.07-0300 [STG/0] OUT Downloading app package...
+2017-04-16T21:52:20.26-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T21:52:21.43-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T21:52:24.69-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T21:52:24.82-0300 [STG/0] OUT        
+2017-04-16T21:52:24.86-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T21:52:24.86-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T21:52:24.87-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:52:24.87-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T21:52:24.90-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:52:24.95-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:52:24.98-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:52:24.98-0300 [STG/0] OUT        
+2017-04-16T21:52:25.46-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T21:52:28.63-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T21:52:28.63-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T21:52:29.13-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T21:52:29.13-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:52:29.14-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:52:29.14-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T21:52:38.95-0300 [STG/0] OUT -----> Caching build
+2017-04-16T21:52:39.00-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T21:52:39.01-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:52:39.01-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:52:42.31-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T21:52:42.77-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:52:44.91-0300 [STG/0] OUT        
+2017-04-16T21:53:09.98-0300 [STG/0] OUT Staging complete
+2017-04-16T21:53:09.98-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T21:53:09.98-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T21:53:09.98-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T21:53:10.29-0300 [STG/0] OUT Uploaded build artifacts cache (4.1M)
+2017-04-16T21:53:15.81-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T21:53:15.81-0300 [STG/0] OUT Uploading complete
+2017-04-16T21:53:16.00-0300 [STG/0] OUT Destroying container
+2017-04-16T21:53:22.75-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T21:53:38.77-0300 [CELL/0] OUT Successfully created container
+2017-04-16T21:53:42.49-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T21:53:42.49-0300 [APP/0] OUT > node app.js
+2017-04-16T21:53:43.21-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T21:53:43.21-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T21:53:43.59-0300 [CELL/0] OUT Container became healthy
+2017-04-16T21:54:35.69-0300 [APP/0] OUT { nome: 'test',
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   data_criacao: Mon Apr 17 2017 00:54:35 GMT+0000 (UTC),
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   ultimo_login: Mon Apr 17 2017 00:54:35 GMT+0000 (UTC),
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   password: '098f6bcd4621d373cade4e832627b4f6',
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   telefones: [ { numero: undefined, ddd: undefined } ] }
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   password: 'test',
+2017-04-16T21:54:35.69-0300 [APP/0] OUT   telefone: [ null, null ] }
+2017-04-16T21:57:11.42-0300 [CELL/0] OUT Exit status 0
+2017-04-16T21:57:14.71-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T21:57:14.91-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T21:57:14.91-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T21:57:14.91-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T21:57:14.94-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T21:57:14.94-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T21:57:14.95-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T21:57:14.95-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T21:57:14.95-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T21:57:14.95-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T21:57:14.95-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T21:57:14.97-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T21:57:14.97-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T21:57:14.97-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T21:57:14.97-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T21:57:14.98-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T21:57:14.98-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T21:57:14.99-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T21:57:14.99-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T21:57:14.99-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T21:57:14.99-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T21:57:15.00-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T21:57:15.00-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T21:57:15.00-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T21:57:15.00-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T21:57:15.00-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T21:57:15.02-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T21:57:15.02-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T21:57:15.05-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T21:57:15.05-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T21:57:15.05-0300 [STG/0] OUT Creating container
+2017-04-16T21:57:22.32-0300 [CELL/0] OUT Destroying container
+2017-04-16T21:57:32.60-0300 [STG/0] OUT Successfully created container
+2017-04-16T21:57:32.60-0300 [STG/0] OUT Downloading app package...
+2017-04-16T21:57:32.87-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T21:57:32.87-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T21:57:35.82-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T21:57:36.45-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T21:57:37.59-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T21:57:37.66-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T21:57:37.66-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T21:57:37.66-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T21:57:37.67-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T21:57:37.67-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T21:57:37.67-0300 [STG/0] OUT        
+2017-04-16T21:57:37.67-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T21:57:37.96-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T21:57:40.64-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T21:57:40.96-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T21:57:40.96-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:57:40.97-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T21:57:40.97-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T21:57:40.97-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T21:57:43.90-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T21:57:48.41-0300 [STG/0] OUT -----> Caching build
+2017-04-16T21:57:48.44-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T21:57:48.44-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T21:57:48.44-0300 [STG/0] OUT        - node_modules
+2017-04-16T21:57:50.59-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T21:57:51.94-0300 [STG/0] OUT        
+2017-04-16T21:58:04.76-0300 [STG/0] OUT Exit status 0
+2017-04-16T21:58:04.76-0300 [STG/0] OUT Staging complete
+2017-04-16T21:58:04.76-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T21:58:04.76-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T21:58:05.48-0300 [STG/0] OUT Uploaded build artifacts cache (4.1M)
+2017-04-16T21:58:09.80-0300 [STG/0] OUT Destroying container
+2017-04-16T21:58:10.75-0300 [CELL/0] OUT Creating container
+2017-04-16T21:58:28.52-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T21:58:36.14-0300 [CELL/0] OUT Successfully created container
+2017-04-16T21:58:39.12-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T21:58:40.44-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T21:58:40.44-0300 [APP/0] OUT > node app.js
+2017-04-16T21:58:41.43-0300 [APP/0] OUT [app] init database
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   ultimo_login: Mon Apr 17 2017 00:59:02 GMT+0000 (UTC),
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   password: '098f6bcd4621d373cade4e832627b4f6',
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   telefones: [ { numero: undefined, ddd: undefined } ] }
+2017-04-16T21:59:02.36-0300 [APP/0] OUT { nome: 'test',
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   password: 'test',
+2017-04-16T21:59:02.36-0300 [APP/0] OUT   telefone: [ null, null ] }
+2017-04-16T22:00:12.62-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:12.492 +0000] "GET / HTTP/1.1" 200 0 2886 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:40136 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:7362f6e8-e622-400c-6f2f-39b4ccb742da response_time:0.131524156 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"4266402045"
+2017-04-16T22:00:12.62-0300 [RTR/0] OUT 
+2017-04-16T22:00:12.83-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:12.826 +0000] "GET /lib/loading-bar.css HTTP/1.1" 200 0 2770 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:17456 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:c233d106-3a17-4ec0-42e8-165e86e360e0 response_time:0.005312739 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"4266403261"
+2017-04-16T22:00:12.83-0300 [RTR/1] OUT 
+2017-04-16T22:00:12.83-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:12.831 +0000] "GET /lib/loading-bar.js HTTP/1.1" 200 0 9291 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:17766 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:91da87fa-c109-4663-7ca6-5c80d5d879f1 response_time:0.004288294 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3288490783"
+2017-04-16T22:00:12.83-0300 [RTR/1] OUT 
+2017-04-16T22:00:13.01-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:12.985 +0000] "GET /scripts/services.js HTTP/1.1" 200 0 1807 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:23290 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:d81aaedf-da91-4019-59b0-05301f8905bc response_time:0.03048472 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3821806841"
+2017-04-16T22:00:13.01-0300 [RTR/0] OUT 
+2017-04-16T22:00:13.19-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:13.188 +0000] "GET /partials/home.html HTTP/1.1" 200 0 609 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:18123 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:a4c74764-2281-48d6-6a2a-23bbea437993 response_time:0.006052938 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2863050225"
+2017-04-16T22:00:13.19-0300 [RTR/3] OUT 
+2017-04-16T22:00:14.59-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:14.568 +0000] "GET /partials/signup.html HTTP/1.1" 200 0 2388 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:18244 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:e5dc8f13-54ae-4c4a-778f-8d6e4cdcd5c0 response_time:0.023494078 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1195641567"
+2017-04-16T22:00:14.59-0300 [RTR/3] OUT 
+2017-04-16T22:00:21.58-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:00:21.561 +0000] "POST /signin HTTP/1.1" 200 80 44 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:43889 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:c2ae53a1-cd8e-4a1c-5b6c-d298ac554fac response_time:0.021352643 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3287307779"
+2017-04-16T22:00:21.58-0300 [RTR/1] OUT 
+2017-04-16T22:01:01.95-0300 [API/1] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:01:02.34-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:00:59:02.095 +0000] "POST /signin HTTP/1.1" 502 80 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:15900 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:bc6a641e-c6cf-4efa-4a81-50475565455d response_time:120.246928811 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"236329479"
+2017-04-16T22:01:02.34-0300 [RTR/3] OUT 
+2017-04-16T22:01:14.90-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T22:01:18.32-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:01:18.60-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:01:18.60-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:01:18.61-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:01:18.61-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:01:18.61-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:01:18.63-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:01:18.65-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:01:18.66-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:01:18.67-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:01:18.67-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:01:18.67-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:01:18.67-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:01:18.67-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:01:18.68-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:01:18.68-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:01:18.68-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:01:18.68-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:01:18.69-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:01:18.69-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:01:18.69-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:01:18.72-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:01:18.72-0300 [STG/0] OUT Creating container
+2017-04-16T22:01:25.87-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:01:38.56-0300 [STG/0] OUT Successfully created container
+2017-04-16T22:01:38.72-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T22:01:39.76-0300 [STG/0] OUT Staging...
+2017-04-16T22:01:41.25-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T22:01:41.25-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T22:01:41.31-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:01:41.31-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:01:41.31-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:01:41.31-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T22:01:41.32-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T22:01:41.32-0300 [STG/0] OUT        
+2017-04-16T22:01:41.32-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:01:41.61-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T22:01:41.81-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:01:43.47-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T22:01:43.80-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:01:45.73-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:01:50.34-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:01:50.34-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:01:50.34-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:01:51.63-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T22:01:51.99-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T22:01:52.84-0300 [STG/0] OUT        
+2017-04-16T22:02:01.42-0300 [STG/0] OUT Staging complete
+2017-04-16T22:02:01.42-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T22:02:01.42-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:02:05.29-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:02:05.48-0300 [STG/0] OUT Destroying container
+2017-04-16T22:02:06.41-0300 [CELL/0] OUT Creating container
+2017-04-16T22:02:22.01-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T22:02:27.73-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T22:02:28.92-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T22:02:29.92-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T22:02:29.92-0300 [APP/0] OUT [app] init database
+2017-04-16T22:02:59.75-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.698 +0000] "GET / HTTP/1.1" 200 0 2886 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:21909 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:ac67ae24-4e54-49b8-7b3a-7270c5fd7135 response_time:0.052689007 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3291103151"
+2017-04-16T22:02:59.75-0300 [RTR/2] OUT 
+2017-04-16T22:02:59.94-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.929 +0000] "GET /lib/loading-bar.css HTTP/1.1" 200 0 2770 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:38248 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:6a02bda1-64a1-44b9-7972-cd9e2c29f1f8 response_time:0.010324045 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2615097203"
+2017-04-16T22:02:59.94-0300 [RTR/0] OUT 
+2017-04-16T22:02:59.95-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.936 +0000] "GET /scripts/app.js HTTP/1.1" 200 0 1516 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:60024 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:b89874e3-84b3-4e89-7bd1-9ae6728aee1e response_time:0.014342898 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3291103167"
+2017-04-16T22:02:59.95-0300 [RTR/1] OUT 
+2017-04-16T22:02:59.95-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.937 +0000] "GET /lib/loading-bar.js HTTP/1.1" 200 0 9291 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:57468 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:63095c17-0bd7-400c-5ecd-0247d55ba38b response_time:0.016220238 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1154653087"
+2017-04-16T22:02:59.95-0300 [RTR/0] OUT 
+2017-04-16T22:02:59.95-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.939 +0000] "GET /scripts/services.js HTTP/1.1" 200 0 1807 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:55915 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:b740dae5-c063-4d80-5999-0558b18c4384 response_time:0.016065181 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1198013711"
+2017-04-16T22:02:59.95-0300 [RTR/0] OUT 
+2017-04-16T22:02:59.96-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:02:59.945 +0000] "GET /scripts/controllers.js HTTP/1.1" 200 0 2171 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:34771 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:60bc0d2c-319e-46fd-7ee2-41563b824d52 response_time:0.016518881 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1198013727"
+2017-04-16T22:02:59.96-0300 [RTR/2] OUT 
+2017-04-16T22:03:02.60-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:03:02.593 +0000] "GET /partials/signup.html HTTP/1.1" 200 0 2388 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:44588 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:65d68ac8-3306-40e6-48b9-a427079e95c8 response_time:0.006581275 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1806354753"
+2017-04-16T22:03:02.60-0300 [RTR/1] OUT 
+2017-04-16T22:03:15.30-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:03:15.288 +0000] "GET /partials/signin.html HTTP/1.1" 200 0 1365 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:16398 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:8d7efb85-6121-4e92-599c-85e162ef62bf response_time:0.014802521 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1198066175"
+2017-04-16T22:03:15.30-0300 [RTR/3] OUT 
+2017-04-16T22:03:55.81-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:03:55.801 +0000] "POST /authenticate HTTP/1.1" 200 43 48 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 169.54.202.27:47080 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:3d67c2d2-e8d5-4d00-46a6-b09420aebe5e response_time:0.018652982 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"607305263"
+2017-04-16T22:03:55.81-0300 [RTR/0] OUT 
+2017-04-16T22:05:19.58-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:03:19.566 +0000] "POST /authenticate HTTP/1.1" 502 43 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:55955 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:3f01f930-be75-479a-4a65-3f9497ccddcc response_time:120.022062916 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1198067199"
+2017-04-16T22:05:19.58-0300 [RTR/0] OUT 
+2017-04-16T22:06:46.16-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:07:04.47-0300 [CELL/0] OUT Exit status 0
+2017-04-16T22:07:08.49-0300 [API/6] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:07:09.00-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:07:09.00-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:07:09.03-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:07:09.04-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:07:09.04-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:07:09.05-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:07:09.06-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:07:09.07-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:07:09.07-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:07:09.08-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:07:09.08-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:07:09.08-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:07:09.08-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:07:09.08-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:07:09.11-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:07:09.11-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:07:09.11-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:07:09.11-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:07:15.48-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:07:28.64-0300 [STG/0] OUT Successfully created container
+2017-04-16T22:07:28.64-0300 [STG/0] OUT Downloading app package...
+2017-04-16T22:07:28.76-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:07:29.15-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T22:07:30.31-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T22:07:30.31-0300 [STG/0] OUT Staging...
+2017-04-16T22:07:31.45-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T22:07:31.45-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:07:31.46-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T22:07:31.47-0300 [STG/0] OUT        
+2017-04-16T22:07:31.47-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:07:31.47-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:07:31.47-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:07:31.47-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T22:07:31.49-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T22:07:31.49-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:07:33.58-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T22:07:33.58-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:07:33.91-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:07:33.91-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:07:33.91-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T22:07:35.66-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:07:38.35-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:07:38.36-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:07:40.20-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T22:07:41.29-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T22:07:41.29-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T22:07:41.29-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:07:41.29-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T22:07:41.29-0300 [STG/0] OUT        
+2017-04-16T22:07:50.96-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:07:50.96-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:07:51.28-0300 [STG/0] OUT Uploaded build artifacts cache (4.1M)
+2017-04-16T22:07:52.70-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:07:52.71-0300 [STG/0] OUT Uploading complete
+2017-04-16T22:07:53.69-0300 [CELL/0] OUT Creating container
+2017-04-16T22:08:05.22-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T22:08:19.89-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T22:08:19.89-0300 [APP/0] OUT > node app.js
+2017-04-16T22:08:26.72-0300 [CELL/0] OUT Container became healthy
+2017-04-16T22:08:38.25-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:08:54.45-0300 [API/8] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:08:55.27-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:08:55.27-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:08:55.27-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:08:55.28-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:08:55.29-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:08:55.29-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:08:55.29-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:08:55.29-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:08:55.29-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:08:55.30-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:08:55.30-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:08:55.30-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:08:55.30-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:08:55.32-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:08:55.33-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:08:55.34-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:08:55.34-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:08:55.35-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:08:55.35-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:08:55.35-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:08:55.35-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:08:55.35-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:08:55.36-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:08:55.37-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:08:55.38-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:08:55.38-0300 [STG/0] OUT Creating container
+2017-04-16T22:09:07.55-0300 [STG/0] OUT Downloading app package...
+2017-04-16T22:09:07.74-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T22:09:09.12-0300 [STG/0] OUT Staging...
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:09:10.93-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:09:10.94-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T22:09:10.94-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T22:09:10.94-0300 [STG/0] OUT        
+2017-04-16T22:09:10.94-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:09:11.20-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T22:09:13.22-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T22:09:13.22-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:09:13.53-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:09:13.53-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:09:13.54-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T22:09:13.56-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T22:09:14.18-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:09:15.99-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:09:20.51-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:09:20.51-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:09:20.51-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T22:09:20.51-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:09:21.92-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T22:09:22.31-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T22:09:23.22-0300 [STG/0] OUT        
+2017-04-16T22:09:33.73-0300 [STG/0] OUT Exit status 0
+2017-04-16T22:09:33.73-0300 [STG/0] OUT Staging complete
+2017-04-16T22:09:33.73-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T22:09:33.73-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:09:33.73-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:09:34.15-0300 [STG/0] OUT Uploaded build artifacts cache (4.1M)
+2017-04-16T22:09:40.27-0300 [STG/0] OUT Uploading complete
+2017-04-16T22:09:40.72-0300 [STG/0] OUT Destroying container
+2017-04-16T22:09:45.60-0300 [CELL/0] OUT Successfully created container
+2017-04-16T22:09:48.67-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T22:09:49.93-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T22:09:49.93-0300 [APP/0] OUT > node app.js
+2017-04-16T22:09:51.19-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T22:09:51.19-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T22:09:53.87-0300 [CELL/0] OUT Container became healthy
+2017-04-16T22:10:53.44-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.409 +0000] "GET / HTTP/1.1" 200 0 2886 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:29019 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:776ee1c0-66b4-42d1-6977-df8ef18c14ef response_time:0.035688094 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3288484755"
+2017-04-16T22:10:53.44-0300 [RTR/1] OUT 
+2017-04-16T22:10:53.65-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.635 +0000] "GET /lib/loading-bar.css HTTP/1.1" 200 0 2770 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:13891 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:71466ebf-6b35-4fb9-43ff-6122fa87e87f response_time:0.019258933 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1206369119"
+2017-04-16T22:10:53.65-0300 [RTR/0] OUT 
+2017-04-16T22:10:53.67-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.643 +0000] "GET /scripts/services.js HTTP/1.1" 200 0 1807 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:12973 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:e29eaf3c-8664-49ed-78a7-28624dc65a99 response_time:0.030920102 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3301161743"
+2017-04-16T22:10:53.67-0300 [RTR/1] OUT 
+2017-04-16T22:10:53.67-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.649 +0000] "GET /scripts/app.js HTTP/1.1" 200 0 1516 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:39985 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:2cbba8f6-c109-45cc-4a11-6aeab0dd62f5 response_time:0.030058485 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3288484771"
+2017-04-16T22:10:53.67-0300 [RTR/2] OUT 
+2017-04-16T22:10:53.68-0300 [RTR/2] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.650 +0000] "GET /scripts/controllers.js HTTP/1.1" 200 0 2171 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:34432 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:f21814e1-534a-458a-6f1a-f96628119f63 response_time:0.030059956 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2529515879"
+2017-04-16T22:10:53.68-0300 [RTR/2] OUT 
+2017-04-16T22:10:54.00-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:10:53.992 +0000] "GET /partials/home.html HTTP/1.1" 200 0 609 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:16225 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:77c7921e-9d91-4775-7c37-436aaf9303fa response_time:0.010443861 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"896481459"
+2017-04-16T22:10:54.00-0300 [RTR/3] OUT 
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR ReferenceError: promise is not defined[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at /home/vcap/app/app.js:166:9[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at urlencodedParser (/home/vcap/app/node_modules/body-parser/index.js:67:27)[0m
+[31m2017-04-16T22:11:01.11-0300 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+2017-04-16T22:11:01.13-0300 [APP/0] OUT Body content
+2017-04-16T22:11:01.15-0300 [APP/0] OUT { nome: 'test',
+2017-04-16T22:11:01.15-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T22:11:01.15-0300 [APP/0] OUT   password: 'test',
+2017-04-16T22:11:01.15-0300 [APP/0] OUT   telefone: [ null, null ] }
+2017-04-16T22:12:15.55-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:12:28.42-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T22:12:32.27-0300 [API/6] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:12:32.36-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:12:32.36-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:12:32.36-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:12:32.36-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:12:32.36-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:12:32.38-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:12:32.39-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:12:32.41-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:12:32.42-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:12:32.42-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:12:32.42-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:12:32.42-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:12:32.43-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:12:32.43-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:12:32.43-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:12:32.43-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:12:32.44-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:12:32.44-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:12:32.44-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:12:32.45-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:12:32.46-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:12:32.46-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:12:32.46-0300 [STG/0] OUT Creating container
+2017-04-16T22:12:39.43-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:12:48.72-0300 [STG/0] OUT Successfully created container
+2017-04-16T22:12:48.95-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T22:12:48.95-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T22:12:49.77-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T22:12:49.77-0300 [STG/0] OUT Staging...
+2017-04-16T22:12:51.71-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:12:51.73-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T22:12:51.73-0300 [STG/0] OUT        
+2017-04-16T22:12:51.73-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T22:12:51.73-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:12:51.73-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:12:51.74-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T22:12:51.76-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T22:12:51.76-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T22:12:53.92-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:12:54.25-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:12:54.25-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:12:54.25-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T22:12:54.25-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T22:12:54.25-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T22:12:56.19-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:12:59.52-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:12:59.55-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:12:59.55-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T22:12:59.55-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        ├── path@0.12.7
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T22:13:01.64-0300 [STG/0] OUT        
+2017-04-16T22:13:09.56-0300 [STG/0] OUT Exit status 0
+2017-04-16T22:13:09.56-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:13:09.56-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:13:09.86-0300 [STG/0] OUT Uploaded build artifacts cache (4M)
+2017-04-16T22:13:11.43-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:13:11.44-0300 [STG/0] OUT Uploading complete
+2017-04-16T22:13:11.53-0300 [STG/0] OUT Destroying container
+2017-04-16T22:13:12.33-0300 [CELL/0] OUT Creating container
+2017-04-16T22:13:22.15-0300 [STG/0] OUT Successfully destroyed container
+[31m2017-04-16T22:13:36.31-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:13:36.33-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:13:36.35-0300 [API/1] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>1, "crash_timestamp"=>1492391616326307271, "version"=>"297cd10b-7d2a-4944-8c4f-0a2e6af62593"}
+2017-04-16T22:13:36.95-0300 [CELL/0] OUT Creating container
+2017-04-16T22:13:54.05-0300 [CELL/0] OUT Successfully created container
+2017-04-16T22:13:59.14-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T22:13:59.14-0300 [APP/0] OUT > node app.js
+2017-04-16T22:13:59.99-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T22:13:59.99-0300 [APP/0] OUT [app] init database
+2017-04-16T22:13:59.99-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T22:14:50.49-0300 [APP/0] OUT   password: 'test',
+2017-04-16T22:16:50.47-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:14:50.428 +0000] "POST /signin HTTP/1.1" 502 80 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:13038 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:98be110b-c3c3-4365-4c80-402bbeae4e61 response_time:120.041547614 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1165651951"
+2017-04-16T22:16:50.47-0300 [RTR/3] OUT 
+2017-04-16T22:17:49.76-0300 [API/9] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:18:02.55-0300 [CELL/0] OUT Exit status 0
+2017-04-16T22:18:05.76-0300 [API/4] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:18:06.36-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:18:06.36-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:18:06.39-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:18:06.39-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:18:06.39-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:18:06.39-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:18:06.40-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T22:18:06.40-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:18:06.40-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:18:06.40-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:18:06.40-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:18:06.41-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:18:06.42-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:18:06.42-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:18:06.43-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:18:06.43-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:18:06.43-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:18:06.44-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:18:06.45-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:18:06.45-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:18:06.47-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:18:06.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:18:06.48-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:18:06.50-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:18:06.50-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:18:06.51-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:18:06.51-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:18:06.51-0300 [STG/0] OUT Creating container
+2017-04-16T22:18:13.55-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:18:20.74-0300 [STG/0] OUT Downloading app package...
+2017-04-16T22:18:20.97-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T22:18:22.36-0300 [STG/0] OUT Downloaded build artifacts cache (4M)
+2017-04-16T22:18:23.72-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T22:18:23.72-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:18:23.73-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T22:18:23.74-0300 [STG/0] OUT        
+2017-04-16T22:18:23.74-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:18:23.74-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T22:18:23.74-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:18:23.74-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:18:23.75-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T22:18:23.76-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T22:18:23.76-0300 [STG/0] OUT        
+2017-04-16T22:18:23.76-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:18:24.22-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:18:25.89-0300 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-16T22:18:25.89-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:18:26.25-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:18:26.25-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:18:26.25-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T22:18:26.25-0300 [STG/0] OUT        Installing node modules (package.json)
+2017-04-16T22:18:28.50-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:18:32.62-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:18:32.62-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:18:32.62-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T22:18:32.62-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:18:34.51-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T22:18:34.79-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── cloudant@1.7.1
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:18:35.93-0300 [STG/0] OUT        
+2017-04-16T22:18:47.80-0300 [STG/0] OUT Exit status 0
+2017-04-16T22:18:47.80-0300 [STG/0] OUT Staging complete
+2017-04-16T22:18:47.80-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:18:47.80-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:18:51.54-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:18:51.55-0300 [STG/0] OUT Uploading complete
+2017-04-16T22:18:51.75-0300 [STG/0] OUT Destroying container
+2017-04-16T22:18:52.62-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T22:18:54.07-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:18:54.10-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:18:54.10-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:18:54.13-0300 [API/1] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>1, "crash_timestamp"=>1492391934082883485, "version"=>"dac2ce5e-cbc8-45e2-82c7-8686ae31a782"}
+2017-04-16T22:18:54.72-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T22:18:55.81-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:18:55.89-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:18:55.89-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:18:55.91-0300 [API/1] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>2, "crash_timestamp"=>1492391935827616306, "version"=>"dac2ce5e-cbc8-45e2-82c7-8686ae31a782"}
+2017-04-16T22:18:56.24-0300 [CELL/0] OUT Creating container
+2017-04-16T22:19:02.99-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T22:19:11.13-0300 [CELL/0] OUT Successfully created container
+2017-04-16T22:19:13.52-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T22:19:14.73-0300 [APP/0] OUT > NodejsStarterApp@0.0.1 start /home/vcap/app
+2017-04-16T22:19:15.84-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T22:19:15.85-0300 [APP/0] OUT [app] init database
+2017-04-16T22:19:15.85-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T22:20:34.70-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:34.682 +0000] "GET /lib/loading-bar.css HTTP/1.1" 200 0 2770 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:22953 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:0550443f-98df-4146-7177-1e4998a59499 response_time:0.020827728 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2221041545"
+2017-04-16T22:20:34.70-0300 [RTR/1] OUT 
+2017-04-16T22:20:34.70-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:34.683 +0000] "GET /lib/ngStorage.js HTTP/1.1" 200 0 1179 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:34408 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:834f0900-7d4d-47f2-4603-e106869abdaf response_time:0.021704403 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"2867775249"
+2017-04-16T22:20:34.70-0300 [RTR/3] OUT 
+2017-04-16T22:20:34.70-0300 [RTR/3] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:34.686 +0000] "GET /scripts/services.js HTTP/1.1" 200 0 1807 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:26929 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:dbb4e3d3-c902-42bb-7903-177c54b45ba2 response_time:0.021885494 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"3079583453"
+2017-04-16T22:20:34.70-0300 [RTR/3] OUT 
+2017-04-16T22:20:34.71-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:34.686 +0000] "GET /scripts/app.js HTTP/1.1" 200 0 1516 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.156:52460 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:b075a1d1-bd9d-466f-6ac0-66e311c8c117 response_time:0.024446856 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"1171193759"
+2017-04-16T22:20:34.71-0300 [RTR/1] OUT 
+2017-04-16T22:20:36.80-0300 [RTR/0] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:36.795 +0000] "GET /partials/signup.html HTTP/1.1" 200 0 2388 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:17269 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:467e9127-d00a-4bf9-5af1-a044e8acaa1c response_time:0.005997868 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"4275977853"
+2017-04-16T22:20:36.80-0300 [RTR/0] OUT 
+2017-04-16T22:20:50.37-0300 [APP/0] OUT Body content
+2017-04-16T22:20:50.39-0300 [APP/0] OUT { nome: 'test',
+2017-04-16T22:20:50.39-0300 [APP/0] OUT   email: 'test@test.com',
+2017-04-16T22:20:50.39-0300 [APP/0] OUT   password: 'test',
+2017-04-16T22:20:50.39-0300 [APP/0] OUT   telefone: [ null, null ] }
+2017-04-16T22:22:46.46-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:22:50.32-0300 [RTR/1] OUT cktakata-concrete.mybluemix.net - [17/04/2017:01:20:50.316 +0000] "POST /signin HTTP/1.1" 502 80 67 "https://cktakata-concrete.mybluemix.net/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:60711 x_forwarded_for:"177.102.34.51" x_forwarded_proto:"https" vcap_request_id:42d19e09-6458-472d-65a9-79271ffa33dd response_time:120.006938484 app_id:468567c5-1fcb-4d40-aa99-3b80c6b0f653 x_global_transaction_id:"243586903"
+2017-04-16T22:22:50.32-0300 [RTR/1] OUT 
+2017-04-16T22:22:59.27-0300 [API/2] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T22:22:59.28-0300 [CELL/0] OUT Exit status 0
+2017-04-16T22:23:02.83-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:23:03.62-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:23:03.62-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:23:03.62-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:23:03.62-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:23:03.64-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:23:03.66-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:23:03.67-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:23:03.67-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:23:03.68-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:23:03.69-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:23:03.69-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:23:03.70-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:23:03.70-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:23:03.70-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:23:03.70-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:23:03.70-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:23:03.71-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T22:23:03.71-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:23:03.72-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:23:03.73-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:23:03.73-0300 [STG/0] OUT Creating container
+[31m2017-04-16T22:23:04.14-0300 [API/0] ERR Failed to stage application: staging failed[0m
+2017-04-16T22:23:10.29-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:23:27.17-0300 [API/5] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:23:42.50-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:23:42.50-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:23:42.50-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:23:42.50-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:23:42.51-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:23:42.52-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:23:42.53-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:23:42.53-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:23:42.54-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:23:42.54-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:23:42.54-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:23:42.54-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:23:42.54-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:23:42.55-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:23:42.55-0300 [STG/0] OUT Downloading liberty-for-java...
+2017-04-16T22:23:42.56-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:23:42.56-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:23:42.56-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:23:42.57-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:23:42.57-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:23:42.57-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:23:42.57-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:23:42.57-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:23:42.58-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:23:42.58-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:23:42.58-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:23:42.59-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:23:42.59-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:23:42.60-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:23:42.60-0300 [STG/0] OUT Downloaded dotnet-core
+[31m2017-04-16T22:23:43.24-0300 [STG/0] ERR Failed to create container[0m
+2017-04-16T22:23:43.25-0300 [STG/0] OUT Destroying container
+2017-04-16T22:23:43.25-0300 [STG/0] OUT Successfully destroyed container
+[31m2017-04-16T22:23:43.33-0300 [API/1] ERR Failed to stage application: staging failed[0m
+2017-04-16T22:24:26.36-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:24:41.34-0300 [API/6] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:24:41.49-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:24:41.49-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:24:41.49-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:24:41.51-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:24:41.51-0300 [STG/0] OUT Downloading binary_buildpack...
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:24:41.52-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloading python_buildpack...
+2017-04-16T22:24:41.54-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:24:41.57-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:24:41.59-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:24:41.59-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:24:41.59-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:24:41.59-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T22:24:41.60-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:25:00.88-0300 [STG/0] OUT Successfully created container
+2017-04-16T22:25:00.88-0300 [STG/0] OUT Downloading app package...
+2017-04-16T22:25:01.13-0300 [STG/0] OUT Downloaded app package (123.3K)
+2017-04-16T22:25:01.13-0300 [STG/0] OUT Downloading build artifacts cache...
+2017-04-16T22:25:03.05-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T22:25:04.42-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:25:04.43-0300 [STG/0] OUT -----> Creating runtime environment
+2017-04-16T22:25:04.44-0300 [STG/0] OUT        
+2017-04-16T22:25:04.44-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:25:04.46-0300 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-16T22:25:04.46-0300 [STG/0] OUT -----> Installing binaries
+2017-04-16T22:25:04.48-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T22:25:04.48-0300 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-16T22:25:04.48-0300 [STG/0] OUT        
+2017-04-16T22:25:04.48-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:25:04.79-0300 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-16T22:25:07.09-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:25:07.49-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:25:07.51-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T22:25:07.51-0300 [STG/0] OUT -----> Building dependencies
+2017-04-16T22:25:09.94-0300 [STG/0] OUT -----> Installing App Management
+2017-04-16T22:25:14.70-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:25:14.73-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:25:14.73-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:25:16.98-0300 [STG/0] OUT -----> Build succeeded!
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        ├── express@4.13.4
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T22:25:17.89-0300 [STG/0] OUT        
+2017-04-16T22:25:29.50-0300 [STG/0] OUT Staging complete
+2017-04-16T22:25:29.50-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:25:29.50-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:25:32.48-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:25:32.77-0300 [STG/0] OUT Destroying container
+2017-04-16T22:25:33.86-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T22:25:34.15-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:25:34.17-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:25:34.21-0300 [API/8] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>1, "crash_timestamp"=>1492392334163543489, "version"=>"0810f468-f070-4841-99ed-cf9499bc80a4"}
+2017-04-16T22:25:34.95-0300 [CELL/0] OUT Creating container
+2017-04-16T22:25:35.42-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:25:35.43-0300 [API/10] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>2, "crash_timestamp"=>1492392335406427209, "version"=>"0810f468-f070-4841-99ed-cf9499bc80a4"}
+2017-04-16T22:25:36.06-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T22:25:36.66-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:25:36.68-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:25:36.68-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:25:36.69-0300 [API/2] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>3, "crash_timestamp"=>1492392336677070499, "version"=>"0810f468-f070-4841-99ed-cf9499bc80a4"}
+2017-04-16T22:26:02.56-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T22:26:25.06-0300 [CELL/0] OUT Creating container
+2017-04-16T22:26:42.25-0300 [CELL/0] OUT Successfully created container
+2017-04-16T22:26:45.47-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T22:26:47.79-0300 [APP/0] OUT server starting on https://cktakata-concrete.mybluemix.net
+2017-04-16T22:26:47.79-0300 [APP/0] OUT [app] init database
+2017-04-16T22:26:47.79-0300 [APP/0] OUT [db] connecting to cloudant: concrete
+2017-04-16T22:27:15.92-0300 [API/7] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"name"=>"cktakata-concrete", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-16T22:27:26.20-0300 [API/1] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STARTED"})
+2017-04-16T22:27:26.94-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:27:26.95-0300 [STG/0] OUT Downloading go_buildpack...
+2017-04-16T22:27:26.95-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:27:26.99-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloaded swift_buildpack
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloaded noop-buildpack
+2017-04-16T22:27:27.00-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:27:27.02-0300 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-16T22:27:27.02-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:27:27.02-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:27:27.02-0300 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-16T22:27:27.03-0300 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-16T22:27:27.03-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:27:27.05-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:27:27.06-0300 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-16T22:27:27.06-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:27:27.06-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:27:27.06-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:27:27.06-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:27:27.07-0300 [STG/0] OUT Downloading dotnet-core...
+2017-04-16T22:27:27.11-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:27:27.11-0300 [STG/0] OUT Downloaded dotnet-core
+2017-04-16T22:27:27.11-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:27:27.11-0300 [STG/0] OUT Downloaded python_buildpack
+2017-04-16T22:27:27.14-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:27:27.14-0300 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-16T22:27:44.43-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:28:00.13-0300 [STG/0] OUT Successfully created container
+2017-04-16T22:28:00.13-0300 [STG/0] OUT Downloading app package...
+2017-04-16T22:28:03.62-0300 [STG/0] OUT Downloaded build artifacts cache (4.1M)
+2017-04-16T22:28:03.62-0300 [STG/0] OUT Staging...
+2017-04-16T22:28:08.15-0300 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-16T22:28:08.16-0300 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-16T22:28:08.20-0300 [STG/0] OUT        
+2017-04-16T22:28:08.27-0300 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-16T22:28:08.27-0300 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-16T22:28:08.27-0300 [STG/0] OUT        NODE_ENV=production
+2017-04-16T22:28:08.38-0300 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-16T22:28:08.38-0300 [STG/0] OUT        
+2017-04-16T22:28:08.38-0300 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-16T22:28:18.54-0300 [STG/0] OUT -----> Restoring cache
+2017-04-16T22:28:20.06-0300 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-16T22:28:20.09-0300 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-16T22:28:35.45-0300 [STG/0] OUT -----> Caching build
+2017-04-16T22:28:35.49-0300 [STG/0] OUT        Clearing previous node cache
+2017-04-16T22:28:35.52-0300 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-16T22:28:35.52-0300 [STG/0] OUT        - node_modules
+2017-04-16T22:28:37.88-0300 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        ├── body-parser@1.0.2
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        ├── cfenv@1.0.4
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        ├── connect-multiparty@2.0.0
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        ├── express-handlebars@3.0.0
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        ├── jsonwebtoken@0.4.0
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        └── q@1.5.0
+2017-04-16T22:28:42.64-0300 [STG/0] OUT        
+2017-04-16T22:29:09.97-0300 [STG/0] OUT Exit status 0
+2017-04-16T22:29:09.97-0300 [STG/0] OUT Staging complete
+2017-04-16T22:29:09.97-0300 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-16T22:29:09.97-0300 [STG/0] OUT Uploading build artifacts cache...
+2017-04-16T22:29:09.97-0300 [STG/0] OUT Uploading droplet...
+2017-04-16T22:29:11.16-0300 [STG/0] OUT Uploaded build artifacts cache (4M)
+2017-04-16T22:29:14.47-0300 [STG/0] OUT Uploaded droplet (21M)
+2017-04-16T22:29:14.89-0300 [STG/0] OUT Destroying container
+2017-04-16T22:29:15.83-0300 [CELL/0] OUT Creating container
+[31m2017-04-16T22:29:16.12-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:29:16.14-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:29:16.14-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:29:16.16-0300 [API/1] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"failed to initialize container", "crash_count"=>1, "crash_timestamp"=>1492392556129583489, "version"=>"a2aabc6c-556c-4eeb-bd31-826aa88beebc"}
+2017-04-16T22:29:19.33-0300 [CELL/0] OUT Successfully created container
+2017-04-16T22:29:25.51-0300 [CELL/0] OUT Starting health monitoring of container
+2017-04-16T22:29:32.40-0300 [STG/0] OUT Successfully destroyed container
+2017-04-16T22:29:55.76-0300 [CELL/0] OUT Exit status 137
+2017-04-16T22:29:55.76-0300 [APP/0] OUT Exit status 137
+2017-04-16T22:29:55.80-0300 [CELL/0] OUT Destroying container
+2017-04-16T22:29:55.80-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:29:56.39-0300 [CELL/0] OUT Creating container
+2017-04-16T22:29:56.41-0300 [API/5] OUT App instance exited with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 137\n* Exited with status 137\n* cancelled", "crash_count"=>2, "crash_timestamp"=>1492392595785750368, "version"=>"a2aabc6c-556c-4eeb-bd31-826aa88beebc"}
+[31m2017-04-16T22:29:56.74-0300 [CELL/0] ERR Failed to create container[0m
+2017-04-16T22:29:56.76-0300 [CELL/0] OUT Successfully destroyed container
+2017-04-16T22:30:24.29-0300 [API/0] OUT Updated app with guid 468567c5-1fcb-4d40-aa99-3b80c6b0f653 ({"state"=>"STOPPED"})
+2017-04-16T22:30:28.46-0300 [STG/0] OUT Downloading dotnet-core_v1_0_10-20170124-1145...
+2017-04-16T22:30:28.46-0300 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-16T22:30:28.46-0300 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-16T22:30:28.46-0300 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-16T22:30:28.49-0300 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-16T22:30:28.49-0300 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-16T22:30:28.49-0300 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-16T22:30:28.49-0300 [STG/0] OUT Downloading swift_buildpack...
+2017-04-16T22:30:28.49-0300 [STG/0] OUT Downloaded dotnet-core_v1_0_10-20170124-1145
+2017-04-16T22:30:28.51-0300 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-16T22:30:28.52-0300 [STG/0] OUT Downloaded binary_buildpack
+2017-04-16T22:30:28.52-0300 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-16T22:30:28.52-0300 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-16T22:30:28.52-0300 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-16T22:30:28.52-0300 [STG/0] OUT Downloaded liberty-for-java
+2017-04-16T22:30:28.54-0300 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-16T22:30:28.54-0300 [STG/0] OUT Downloading noop-buildpack...
+2017-04-16T22:30:28.54-0300 [STG/0] OUT Downloading java_buildpack...
+2017-04-16T22:30:28.54-0300 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-16T22:30:28.54-0300 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-16T22:30:28.55-0300 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-16T22:30:28.55-0300 [STG/0] OUT Downloading php_buildpack...
+2017-04-16T22:30:28.56-0300 [STG/0] OUT Downloaded java_buildpack
+2017-04-16T22:30:28.56-0300 [STG/0] OUT Downloaded go_buildpack
+2017-04-16T22:30:28.57-0300 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-16T22:30:28.57-0300 [STG/0] OUT Downloaded php_buildpack
+2017-04-16T22:30:28.57-0300 [STG/0] OUT Creating container
+[31m2017-04-16T22:30:28.88-0300 [STG/0] ERR Failed to create container[0m
+2017-04-16T22:30:28.89-0300 [STG/0] OUT Destroying container
+2017-04-16T22:30:28.90-0300 [STG/0] OUT Successfully destroyed container
+[31m2017-04-16T22:30:28.97-0300 [API/5] ERR Failed to stage application: staging failed[0m
