@@ -14,7 +14,7 @@
 		"cfenv": "1.0.x",
 		"q": "^1.4.1",
 		"path": "^0.12.7",
-		"jsonwebtoken": "0.4.0"
+		"jsonwebtoken": "4.2.2"
 	},
 	"repository": {},
 	"engines": {
